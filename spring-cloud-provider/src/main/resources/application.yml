@@ -1,0 +1,20 @@
+server:
+  port: 9002
+
+
+spring:
+  application:
+    name: provider
+
+eureka:
+  instance:
+    instance-id: provider01
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9001/eureka
+
+
+info:
+  name: provider
+  company: www.lantrack.net
