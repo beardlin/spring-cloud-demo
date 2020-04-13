@@ -12,7 +12,7 @@ public class UserController {
 
     @GetMapping("/user")
     private String info(){
-        System.out.println("9002");
+        System.out.println("9100");
         return "tom";
     }
 }

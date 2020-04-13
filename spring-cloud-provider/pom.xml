@@ -11,8 +11,5 @@
 
     <artifactId>spring-cloud-provider</artifactId>
 
-   <build>
-       <finalName>provider</finalName>
-   </build>
 
 </project>

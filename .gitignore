@@ -10,6 +10,7 @@ upload/
 .settings
 
 .idea
+*.iml
 
 /dist/
 build/

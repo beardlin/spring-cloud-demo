@@ -83,10 +83,38 @@
     </dependencies>
 
     <modules>
-        <module>spring-cloud-eureka-server</module>
         <module>spring-cloud-provider</module>
         <module>spring-cloud-consumer</module>
+        <module>spring-cloud-eureka-01</module>
+        <module>spring-cloud-eureka-02</module>
+        <module>spring-cloud-eureka-03</module>
+        <module>spring-cloud-consumer-feign</module>
     </modules>
+
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>central</id>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
 
     <build>
         <plugins>

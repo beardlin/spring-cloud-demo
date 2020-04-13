@@ -1,0 +1,12 @@
+server:
+  port: 9002
+
+eureka:
+  instance:
+    hostname: eureka02.com
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      #      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://eureka01.com:9001/eureka/,http://eureka03.com:9003/eureka/
