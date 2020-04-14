@@ -30,7 +30,7 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Finchley.RELEASE</version>
+                <version>Greenwich.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -89,6 +89,8 @@
         <module>spring-cloud-eureka-02</module>
         <module>spring-cloud-eureka-03</module>
         <module>spring-cloud-consumer-feign</module>
+        <module>spring-cloud-provider-hystrix</module>
+        <module>spring-cloud-zuul-gateway</module>
     </modules>
 
     <repositories>

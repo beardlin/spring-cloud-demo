@@ -2,6 +2,9 @@ package net.lantrack.user.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import javax.servlet.http.HttpServletRequest;
+
 /**
  *@Description
  *@Author dahuzi
@@ -11,8 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 
     @GetMapping("/user")
-    private String info(){
-        System.out.println("9100");
-        return "tom";
+    private String info(HttpServletRequest request){
+        return "tom :"+request.getServerPort();
     }
 }
