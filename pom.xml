@@ -91,6 +91,7 @@
         <module>spring-cloud-consumer-feign</module>
         <module>spring-cloud-provider-hystrix</module>
         <module>spring-cloud-zuul-gateway</module>
+        <module>spring-cloud-config</module>
     </modules>
 
     <repositories>

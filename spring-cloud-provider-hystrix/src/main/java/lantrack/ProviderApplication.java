@@ -10,7 +10,7 @@ import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
  *@Date 2020/4/9  15:12
  */
 @SpringBootApplication
-//@EnableCircuitBreaker
+@EnableCircuitBreaker
 public class ProviderApplication {
 
     public static void main(String[] args) {
